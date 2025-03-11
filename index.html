@@ -2,12 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-    <title>reveal.js</title>
+    <title>Développeur</title>
 
     <link rel="stylesheet" href="dist/reset.css" />
     <link rel="stylesheet" href="dist/reveal.css" />
@@ -15,131 +12,99 @@
 
     <!-- Theme used for syntax highlighted code -->
     <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+
+    <!-- Font awesome is used by several plugins -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <!-- Font awesome is required for the chalkboard plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <!-- Custom controls plugin is used to for opening and closing annotation modes. -->
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/customcontrols/plugin.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/customcontrols/style.css" />
+    <!-- Chalkboard plugin -->
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/chalkboard/plugin.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/chalkboard/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js-plugins/menu/font-awesome/css/fontawesome.css" />
   </head>
   <body>
     <div class="reveal">
       <div class="slides">
         <section>
-          <h2>Qui suis-je ?</h2>
+          <h1>Présentation du métier de développeur</h1>
+        </section>
+
+        <section>
+          <h1 class="r-fit-text">Qui suis-je ?</h1>
           <p style="font-style: italic">Julien Boz</p>
           <p><span style="color: #50fa7b">Développeur</span> depuis 20 ans</p>
-          <p>
-            <span style="color: #ff5555">Indépendant/gérant</span> d'une société
-          </p>
+          <p><span style="color: #ff5555">Indépendant/gérant</span> d'une société</p>
           <p>
             Travail dans le
-            <span style="color: #f1fa8c">domaine de l'assurance</span> en Suisse
-            depuis 15 ans
+            <span style="color: #f1fa8c">domaine de l'assurance</span> en Suisse depuis 15 ans
           </p>
-          <a
-            class="fragment"
-            style="font-style: italic"
-            href="https://ifocusit.ch"
-            >https://ifocusit.ch</a
-          >
+          <a class="fragment" style="font-style: italic" href="https://ifocusit.ch" target="_blank">https://ifocusit.ch</a>
         </section>
 
         <section>
-          <h2>Qu'est-ce qu'un développeur ?</h2>
+          <h1 class="r-fit-text">Qu'est-ce qu'un développeur ?</h1>
           <p>
             Un développeur est un professionnel qui
-            <span class="fragment" style="color: #f1fa8c">conçoit</span>,
-            <span class="fragment" style="color: #ff5555">code</span> et
-            <span class="fragment" style="color: #50fa7b">test</span> des
-            logiciels, des applications et des sites web.
+            <span class="fragment" style="color: #f1fa8c">conçoit</span>, <span class="fragment" style="color: #ff5555">code</span> et
+            <span class="fragment" style="color: #50fa7b">test</span> des logiciels, des applications et des sites web.
           </p>
           <aside class="notes">
-            Le terme de conception st important parce qu'un logiciel, une
-            application, un jeu se réfléchit avant de se coder.
+            Le terme de conception st important parce qu'un logiciel, une application, un jeu se réfléchit avant de se coder.
           </aside>
         </section>
 
         <section>
-          <h2>Quel est son rôle ?</h2>
-          <p>Ils transforment des idées en produits numériques fonctionnels.</p>
+          <h1 class="r-fit-text">Quel est son rôle ?</h1>
+          <section>Pour mieux comprendre ce que fait un développeur, imaginez le monde de la construction.</section>
           <section>
-            <span style="color: #ffb86c"
-              >Analogie avec le monde du bâtiment</span
-            >: Imaginez un développeur
-            <span style="text-decoration: underline">comme un architecte</span>
-            qui dessine des plans pour construire une maison. Mais au lieu de
-            maisons, il crée des programmes informatiques.
+            <strong>Architecte :</strong> Comme un architecte dessine des plans pour construire une maison, un développeur conçoit des
+            programmes informatiques.
           </section>
           <section>
-            Exemples : Les jeux vidéo comme Fortnite, les applications mobiles
-            comme Instagram, et les sites web comme Amazon.
-          </section>
-          <aside class="notes">
-            <p>
-              Fortnite: utilise pleins de serveur, avec beaucoup d'échange de
-              données presqu'en temps réel.
-            </p>
-            <p>Instagram qui récupère et stocke énormément de données</p>
-            <p>
-              AWS qui est le plus grand fournisseur de service cloud du monde
-            </p>
-          </aside>
-        </section>
-
-        <section>
-          <h2>Quel est son rôle ?</h2>
-          <section>
-            Pour mieux comprendre ce que fait un développeur, imaginez le monde
-            de la construction.
+            <strong>Ingénieur :</strong> Tout comme un ingénieur s'assure que les structures sont solides et fonctionnelles, un développeur
+            écrit du code pour garantir que le logiciel fonctionne correctement.
           </section>
           <section>
-            <strong>Architecte :</strong> Comme un architecte dessine des plans
-            pour construire une maison, un développeur conçoit des programmes
-            informatiques.
-          </section>
-          <section>
-            <strong>Ingénieur :</strong> Tout comme un ingénieur s'assure que
-            les structures sont solides et fonctionnelles, un développeur écrit
-            du code pour garantir que le logiciel fonctionne correctement.
-          </section>
-          <section>
-            <strong>Ouvrier :</strong> De la même manière qu'un ouvrier
-            construit et assemble les éléments d'un bâtiment, un développeur
+            <strong>Ouvrier :</strong> De la même manière qu'un ouvrier construit et assemble les éléments d'un bâtiment, un développeur
             assemble les différentes parties d'un logiciel.
           </section>
           <section>
-            En somme, un développeur est le maître d'œuvre du monde numérique,
-            transformant des idées en produits numériques fonctionnels.
+            En somme, un développeur est le maître d'œuvre du monde numérique, transformant des idées en produits numériques fonctionnels.
           </section>
         </section>
 
-        <section>
-          <h2>Des exemples ?</h2>
+        <section
+          data-background-image="images/infra.jpg"
+          data-background-opacity="0.3"
+          data-background-transition="zoom"
+          data-transition-speed="slow"
+        >
+          <h1 class="r-fit-text">Des exemples ?</h1>
           <ul>
-            <li class="fragment">des jeux vidéos comme Fortine</li>
+            <li class="fragment">des jeux vidéos comme Valorant ou Fortine</li>
             <li class="fragment">des applications mobiles comme instagram</li>
-            <li class="fragment">des sites internet comme Wikipedia</li>
-            <li class="fragment">
-              des services cloud comme Amazon Web Service
-            </li>
+            <li class="fragment">des sites ou app internet comme Discord</li>
+            <li class="fragment">des services cloud comme Amazon Web Service</li>
           </ul>
           <aside class="notes">
-            <p>
-              Fortnite: utilise pleins de serveur, avec beaucoup d'échange de
-              données en temps réel.
-            </p>
+            <p>Valorant: utilise pleins de serveur, avec beaucoup d'échange de données en temps réel.</p>
             <p>Instagram qui récupère et stocke énormément de données</p>
-            <p>
-              AWS qui est le plus grand fournisseur de service cloud du monde
-            </p>
+            <p>Toutes les fonctionnalités offertes par Discord</p>
+            <p>AWS qui est le plus grand fournisseur de service cloud du monde</p>
           </aside>
         </section>
 
         <section>
-          <h2>Quelles sont ses spécialités ?</h2>
+          <h1 class="r-fit-text">Quelles sont ses spécialités ?</h1>
+          <section>Il existe beaucoup de spécialisation, voici quelques exemples courants.</section>
           <section>
-            Il existe beaucoup de spécialisation, voici quelques exemples
-            courants.
-          </section>
-          <section>
-            <strong style="color: #ff5555">Développeur web :</strong> Crée des
-            sites web et des applications accessiblent depuis un
-            browser/navigateur.
+            <strong style="color: #ff5555">Développeur web :</strong> Crée des sites web et des applications accessiblent depuis un
+            navigateur.
           </section>
           <section>
             <strong style="color: #bd93f9">Développeur mobile :</strong>
@@ -154,8 +119,7 @@
             Travaille sur la logique et les bases de données côté serveur.
           </section>
           <section>
-            <strong style="color: #ffb86c">Développeur front-end :</strong> Crée
-            l'interface utilisateur et l'expérience visuelle.
+            <strong style="color: #ffb86c">Développeur front-end :</strong> Crée l'interface utilisateur et l'expérience visuelle.
           </section>
           <section>
             <strong style="color: #50fa7b">Développeur full-stack :</strong>
@@ -163,157 +127,115 @@
           </section>
           <section>
             <strong style="color: #8be9fd">Développeur temps réel :</strong>
-            Programmation "bas niveau" sur des robots, des outils/machines
-            industriels...
+            Programmation "bas niveau" sur des robots, des outils/machines industriels...
           </section>
         </section>
 
         <section>
-          <h2>Comment s'organise sa journée ?</h2>
+          <h1 class="r-fit-text">Comment s'organise sa journée ?</h1>
           <section>
-            <p>
-              La journée peut-être entre-coupée de plusieurs activités ou bien
-              être focus sur une tâche précise.
-            </p>
-            <p>
-              Les horaires sont souvent très souple, le développeur doit savoir
-              s'adapter!
-            </p>
+            <p>La journée peut-être entre-coupée de plusieurs activités ou bien être focus sur une tâche précise.</p>
+            <p>Les horaires sont souvent très souples, le développeur doit savoir s'adapter!</p>
           </section>
-          <section
-            data-background-image="images/meetings.jpg"
-            data-background-opacity="0.3"
-          >
-            <strong>Réunions :</strong> Discussions avec l'équipe pour planifier
-            et coordonner le travail.
+          <section data-background-image="images/meetings.jpg" data-background-opacity="0.3">
+            <strong>Réunions :</strong> Discussions avec l'équipe pour planifier et coordonner le travail.
           </section>
-          <section
-            data-background-image="images/desk.jpg"
-            data-background-opacity="0.3"
-          >
-            <strong>Codage :</strong> Écriture de code pour développer de
-            nouvelles fonctionnalités.
+          <section data-background-image="images/desk.jpg" data-background-opacity="0.3">
+            <strong>Codage :</strong> Écriture de code pour développer de nouvelles fonctionnalités.
           </section>
-          <section
-            data-background-image="images/tdd.png"
-            data-background-opacity="0.3"
-          >
-            <strong>Tests et débogage :</strong> Vérification du code pour
-            s'assurer qu'il fonctionne correctement et correction des erreurs.
-            <aside class="notes">
-              Les tests qui ne fonctionnent pas sont rouges
-            </aside>
+          <section data-background-image="images/tdd.png" data-background-opacity="0.3">
+            <strong>Tests et débogage :</strong> Vérification du code pour s'assurer qu'il fonctionne correctement et correction des
+            erreurs.
+            <aside class="notes">Les tests qui ne fonctionnent pas sont rouges</aside>
           </section>
-          <section
-            data-background-image="images/open-space.jpg"
-            data-background-opacity="0.3"
-          >
-            <strong>Collaboration en équipe :</strong> Travail avec d'autres
-            développeurs, designers et chefs de projet.
+          <section data-background-image="images/open-space.jpg" data-background-opacity="0.3">
+            <div>
+              <strong>Collaboration en équipe :</strong> Travail avec d'autres développeurs, designers et chefs de projet.
+              <div style="display: flex; justify-content: flex-end">
+                <a href="images/open-space.jpg" target="_blank" rel="noopener noreferrer">open space</a>
+              </div>
+            </div>
             <aside class="notes">
               <p>Open-Space: grand bureau sans cloisons</p>
-              <p>
-                Doit favoriser la collaboration entre tous les acteurs de
-                l'entreprise.
-              </p>
+              <p>Doit favoriser la collaboration entre tous les acteurs de l'entreprise.</p>
             </aside>
           </section>
         </section>
 
         <section>
-          <h2>Compétences</h2>
-          <p>Soft skills et hard skills.</p>
+          <h1 class="r-fit-text">Compétences</h1>
+          <p style="font-style: italic">Soft skills et hard skills.</p>
           <section>
-            <strong>Compétences techniques :</strong> Programmation (Python,
-            JavaScript, etc.), logique, compréhension des algorithmes.
+            <strong>Compétences techniques :</strong> Programmation (Python, JavaScript, etc.), logique, compréhension des algorithmes.
           </section>
           <section>
-            <strong>Compétences non techniques :</strong> Résolution de
-            problèmes, travail en équipe, communication, créativité,
+            <strong>Compétences non techniques :</strong> Résolution de problèmes, travail en équipe, communication, créativité,
             <span style="color: #ff5555">curiosité</span>.
           </section>
           <aside class="notes">C'est ce qui doit resortir de son CV.</aside>
         </section>
 
         <section>
-          <h2>Avantages et défis du métier</h2>
+          <h1 class="r-fit-text">Avantages et défis du métier</h1>
           <p>
-            <strong>Avantages :</strong> Créativité, innovation, salaires
-            attractifs, possibilité de travailler à distance et de n'importe où.
+            <strong>Avantages :</strong> Créativité, innovation, salaires attractifs, possibilité de travailler à distance et de n'importe
+            où.
           </p>
           <p>
-            <strong>Défis :</strong> Résolution de problèmes complexes, respect
-            des délais, besoin constant d'apprentissage et d'adaptation, savoir
-            se vendre.
+            <strong>Défis :</strong> Résolution de problèmes complexes, respect des délais, besoin constant d'apprentissage et d'adaptation,
+            savoir se vendre.
           </p>
         </section>
 
         <section>
-          <h1>Formations</h1>
-          <p>plusieurs voies</p>
-          <section>
-            <strong>Formations Universitaires :</strong> Licences et masters en
-            informatique ou ingénierie.
+          <h1 class="r-fit-text">Formations</h1>
+          <p style="font-style: italic">plusieurs voies</p>
+          <section style="margin-top: 1em">
+            <strong>Formations Universitaires :</strong> Licences et masters en informatique ou ingénierie.
           </section>
-          <section>
-            <strong>Écoles Spécialisées :</strong> Écoles d'ingénieurs, écoles
-            de commerce avec spécialisation IT.
+          <section style="margin-top: 1em">
+            <strong>Écoles Spécialisées :</strong> Écoles d'ingénieurs, écoles de commerce avec spécialisation IT.
           </section>
-          <section>
-            <strong>Bootcamps de Codage :</strong> Programmes intensifs de
-            quelques mois pour apprendre le développement.
+          <section style="margin-top: 1em">
+            <strong>Bootcamps de Codage :</strong> Programmes intensifs de quelques mois pour apprendre le développement.
           </section>
-          <section>
-            <strong>Formations en Ligne :</strong> Plateformes comme Coursera,
-            Udemy, et freeCodeCamp.
+          <section style="margin-top: 1em">
+            <strong>Formations en Ligne :</strong> Plateformes comme Coursera, Udemy, et freeCodeCamp.
           </section>
-          <section>
-            <strong>Autodidacte :</strong> Apprentissage par soi-même avec des
-            ressources en ligne et des projets personnels, utiliser des IA
-            génératives pour s'aider (<a href="https://chat.mistral.ai"
-              >Le Chat 😁</a
-            >).
+          <section style="margin-top: 1em">
+            <strong>Autodidacte :</strong> Apprentissage par soi-même avec des ressources en ligne et des projets personnels, utiliser des
+            IA génératives pour s'aider (<a href="https://chat.mistral.ai">Le Chat 😁</a>).
           </section>
-          <section>
-            Chaque chemin a ses avantages et peut être adapté selon vos
-            objectifs et votre situation.
+          <section style="margin-top: 1em">
+            Chaque chemin a ses avantages et peut être adapté selon vos objectifs et votre situation.
           </section>
           <aside class="notes">
             <p>
-              Ce slide donne un aperçu des différentes options de formation
-              disponibles pour ceux qui souhaitent devenir développeurs,
-              permettant aux élèves de voir qu'il existe plusieurs chemins
-              possibles pour atteindre cet objectif.
+              Ce slide donne un aperçu des différentes options de formation disponibles pour ceux qui souhaitent devenir développeurs,
+              permettant aux élèves de voir qu'il existe plusieurs chemins possibles pour atteindre cet objectif.
             </p>
             <p>
-              Formations Universitaires : Les universités offrent des programmes
-              complets en informatique, souvent avec une approche théorique et
-              pratique.
+              Formations Universitaires : Les universités offrent des programmes complets en informatique, souvent avec une approche
+              théorique et pratique.
             </p>
             <p>
-              Écoles Spécialisées : Les écoles d'ingénieurs et certaines écoles
-              de commerce offrent des programmes spécialisés avec un accent sur
-              les compétences pratiques et les projets.
+              Écoles Spécialisées : Les écoles d'ingénieurs et certaines écoles de commerce offrent des programmes spécialisés avec un
+              accent sur les compétences pratiques et les projets.
             </p>
             <p>
-              Bootcamps de Codage : Ces programmes intensifs sont conçus pour
-              vous préparer rapidement au marché du travail avec des compétences
-              pratiques.
+              Bootcamps de Codage : Ces programmes intensifs sont conçus pour vous préparer rapidement au marché du travail avec des
+              compétences pratiques.
             </p>
+            <p>Formations en Ligne : Les plateformes en ligne offrent des cours flexibles et accessibles, souvent à votre propre rythme.</p>
             <p>
-              Formations en Ligne : Les plateformes en ligne offrent des cours
-              flexibles et accessibles, souvent à votre propre rythme.
-            </p>
-            <p>
-              Autodidacte : Avec les ressources disponibles en ligne, il est
-              possible d'apprendre le développement par soi-même, en suivant des
-              tutoriels et en travaillant sur des projets personnels.
+              Autodidacte : Avec les ressources disponibles en ligne, il est possible d'apprendre le développement par soi-même, en suivant
+              des tutoriels et en travaillant sur des projets personnels.
             </p>
           </aside>
         </section>
 
         <section>
-          <h1>Questions et Réponses</h1>
+          <h1 class="r-fit-text">Questions et Réponses</h1>
           <p>Posez vos questions sur le métier de développeur !</p>
         </section>
       </div>
@@ -334,16 +256,47 @@
         center: true,
         hash: true,
         slideNumber: true,
-        slideNumber: "c/t",
+        slideNumber: 'c/t',
+        customcontrols: {
+          controls: [
+            { icon: '<i class="fa fa-pen-square"></i>', title: 'Toggle chalkboard (B)', action: 'RevealChalkboard.toggleChalkboard();' },
+            { icon: '<i class="fa fa-pen"></i>', title: 'Toggle notes canvas (C)', action: 'RevealChalkboard.toggleNotesCanvas();' }
+          ]
+        },
+        chalkboard: {
+          boardmarkerWidth: 3,
+          chalkWidth: 7,
+          chalkEffect: 1.0,
+          storage: null,
+          src: null,
+          readOnly: undefined,
+          transition: 800,
+          theme: 'chalkboard',
+          background: ['rgba(127,127,127,.1)', path + 'img/blackboard.png'],
+          grid: { color: 'rgb(50,50,10,0.5)', distance: 80, width: 2 },
+          eraser: { src: path + 'img/sponge.png', radius: 20 },
+          boardmarkers: [
+            { color: 'rgba(100,100,100,1)', cursor: 'url(' + path + 'img/boardmarker-black.png), auto' },
+            { color: 'rgba(30,144,255, 1)', cursor: 'url(' + path + 'img/boardmarker-blue.png), auto' },
+            { color: 'rgba(220,20,60,1)', cursor: 'url(' + path + 'img/boardmarker-red.png), auto' },
+            { color: 'rgba(50,205,50,1)', cursor: 'url(' + path + 'img/boardmarker-green.png), auto' },
+            { color: 'rgba(255,140,0,1)', cursor: 'url(' + path + 'img/boardmarker-orange.png), auto' },
+            { color: 'rgba(150,0,20150,1)', cursor: 'url(' + path + 'img/boardmarker-purple.png), auto' },
+            { color: 'rgba(255,220,0,1)', cursor: 'url(' + path + 'img/boardmarker-yellow.png), auto' }
+          ],
+          chalks: [
+            { color: 'rgba(255,255,255,0.5)', cursor: 'url(' + path + 'img/chalk-white.png), auto' },
+            { color: 'rgba(96, 154, 244, 0.5)', cursor: 'url(' + path + 'img/chalk-blue.png), auto' },
+            { color: 'rgba(237, 20, 28, 0.5)', cursor: 'url(' + path + 'img/chalk-red.png), auto' },
+            { color: 'rgba(20, 237, 28, 0.5)', cursor: 'url(' + path + 'img/chalk-green.png), auto' },
+            { color: 'rgba(220, 133, 41, 0.5)', cursor: 'url(' + path + 'img/chalk-orange.png), auto' },
+            { color: 'rgba(220,0,220,0.5)', cursor: 'url(' + path + 'img/chalk-purple.png), auto' },
+            { color: 'rgba(255,220,0,0.5)', cursor: 'url(' + path + 'img/chalk-yellow.png), auto' }
+          ]
+        },
 
         // Learn about plugins: https://revealjs.com/plugins/
-        plugins: [
-          RevealZoom,
-          RevealNotes,
-          RevealSearch,
-          RevealMarkdown,
-          RevealHighlight,
-        ],
+        plugins: [RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight, RevealChalkboard, RevealCustomControls]
       });
     </script>
   </body>
